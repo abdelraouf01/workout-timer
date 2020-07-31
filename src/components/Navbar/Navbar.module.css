@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #319795;
+  color: white;
+  padding: 15px;
+}
+.Logo {
+  font-family: 'Dancing Script', cursive;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+li {
+  margin: 0 15px;
+}
+
+a {
+  border: none;
+  text-decoration: none;
+  color: white;
+}

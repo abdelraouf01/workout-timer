@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.Button {
+  margin: 10px 0;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #319795;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.Exercise {
+  background-color: #e2e8f0;
+  color: black;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+.Start {
+  flex: 1;
+}
+.Pause {
+  background-color: #f3f6f9;
+  color: #a2a5aa;
+  flex: 1;
+}
+.Clear {
+  background-color: #f77777;
+  color: black;
+  flex: 1;
+}
+
+.Button:hover {
+  background-color: #3197bf;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: darkslategray;
+  color: white;
+}

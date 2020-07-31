@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Timer from './containers/Timer';
+// import About from './containers/About';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Form from './containers/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Timer} />
+          <Route path="/feedback" component={Form} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

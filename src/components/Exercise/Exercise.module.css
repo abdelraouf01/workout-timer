@@ -1,0 +1,12 @@
+.Timing {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Box {
+  margin: 10px 0;
+  padding: 0 5px;
+  border: #319795 2px solid;
+  border-radius: 5px;
+}
